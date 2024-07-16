@@ -1,0 +1,75 @@
+.header__container .header__logo {
+  margin-right: 185px;
+}
+.header__container .nav {
+  align-content: center;
+}
+.header__container .header__list {
+  margin-right: 185px;
+}
+.header__container .header__item:not(:last-child) {
+  margin-right: 72px;
+}
+.header__container .header__item-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+@font-face {
+  font-family: "Mulish-Medium";
+  src: url("/Mining/src/fonts/Mulish-Medium.woff2") format("woff2"), url("/Mining/src/fonts/Mulish-Medium.woff") format("woff"), url("/Mining/src/fonts/Mulish-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish-Regular";
+  src: url("/Mining/src/fonts/Mulish-Regular.woff2") format("woff2"), url("/Mining/src/fonts/Mulish-Regular.woff") format("woff"), url("/Mining/src/fonts/Mulish-Regular.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  padding-top: 28px;
+  margin: 0 auto;
+  font-family: "Mulish-Regular";
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}/*# sourceMappingURL=styles.css.map */

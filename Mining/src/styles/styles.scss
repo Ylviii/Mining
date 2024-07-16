@@ -1,0 +1,47 @@
+@import './style/mainpages.scss';
+@import './variables/color.scss';
+@import './fonts/font.scss';
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+p {
+    margin: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    padding-top: 28px;
+    margin: 0 auto;
+    font-family: 'Mulish-Regular';
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
