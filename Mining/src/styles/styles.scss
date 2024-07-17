@@ -62,11 +62,21 @@ body {
             color: $text-black;
         }
 
-    .services__name{
+    .services__link{
         color: $text-gray;
     }
 
     .services__descr {
         color: $text-gray;
     }
+    .calc__descr {
+        color: $text-gray;
+    }    
+   
+    .calc__button {
+        background: $background-btn;
+        color: $text-white;
+    }
+
+    
 }
