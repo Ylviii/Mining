@@ -1,6 +1,7 @@
 @import './style/mainpages.scss';
 @import './variables/color.scss';
 @import './fonts/font.scss';
+@import './style/slider.scss';
 
 html {
     box-sizing: border-box;
@@ -46,10 +47,26 @@ body {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    margin-bottom: 64px;
+    margin-bottom: 204px;
 }
 
 .header__button {
     background: $background-btn;
     color: $text-white;
+}
+
+
+.services {
+    background: $text-black;
+        .news__text {
+            color: $text-black;
+        }
+
+    .services__name{
+        color: $text-gray;
+    }
+
+    .services__descr {
+        color: $text-gray;
+    }
 }

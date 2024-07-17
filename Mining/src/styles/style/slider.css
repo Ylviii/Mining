@@ -1,0 +1,19 @@
+#slider-container {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+#slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+#slider img {
+  width: 123px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-right: 8px;
+  border-radius: 12px;
+}/*# sourceMappingURL=slider.css.map */
