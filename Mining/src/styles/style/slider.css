@@ -1,5 +1,5 @@
 #slider-container {
-  width: 600px;
+  max-width: 600px;
   overflow: hidden;
   position: relative;
 }
@@ -14,6 +14,7 @@
   height: 70px;
   -o-object-fit: cover;
      object-fit: cover;
-  padding-right: 8px;
+  margin-right: 12px;
+  margin-left: -4px;
   border-radius: 12px;
 }/*# sourceMappingURL=slider.css.map */
