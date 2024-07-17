@@ -1,6 +1,7 @@
 .header__container {
+    justify-content: space-between;
+
     .header__logo {
-        margin-right: 185px;
     }
 
     .nav {
@@ -8,7 +9,6 @@
     }
 
     .header__list {
-        margin-right: 185px;
     }
 
     .header__item:not(:last-child) {
@@ -17,8 +17,14 @@
 
     .header__item-link {
         font-size: 16px;
-        font-weight: 400;
         line-height: 26px;
-        letter-spacing: 0%;
+    }
+
+    .header__button {
+        padding: 12px 24px;
+        border-radius: 100px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
     }
 }
