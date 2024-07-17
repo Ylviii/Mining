@@ -1,18 +1,20 @@
-.header__container .header__logo {
-  margin-right: 185px;
+.header__container {
+  justify-content: space-between;
 }
 .header__container .nav {
   align-content: center;
-}
-.header__container .header__list {
-  margin-right: 185px;
 }
 .header__container .header__item:not(:last-child) {
   margin-right: 72px;
 }
 .header__container .header__item-link {
   font-size: 16px;
-  font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
+}
+.header__container .header__button {
+  padding: 12px 24px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
 }/*# sourceMappingURL=mainpages.css.map */

@@ -38,10 +38,18 @@ button {
 body {
     padding-top: 28px;
     margin: 0 auto;
-    font-family: 'Mulish-Regular';
+    font-family: 'IBM-Medium"';
+    font-weight: 600;
+    
 }
 
 .container {
     max-width: 1400px;
     margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.header__button {
+    background: $background-btn;
+    color: $text-white;
 }
