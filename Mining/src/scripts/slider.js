@@ -45,4 +45,4 @@ slider.addEventListener('transitionend', () => {
     }
 });
 
-setInterval(moveToNextSlide, 2000); // Смена изображения каждые 5 секунд
+setInterval(moveToNextSlide, 2000); 
